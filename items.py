@@ -1,8 +1,14 @@
 
 import scrapy
 
-class 
-TutsplusItem(scrapy.Item):
+
+class TutsplusItem(scrapy.Item):
   
-title = scrapy.Field()
+  title = scrapy.Field()
   
+  description = scrapy.Field()
+  
+  address = scrapy.Field()
+  
+  price= scrapy.Field()
+
